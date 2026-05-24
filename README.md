@@ -3,6 +3,13 @@
 The objective of this scenario is to simulate a malicious webshell attack and evaluate the effectiveness of OSSEC as a Host Intrusion Detection System (HIDS) in detecting, monitoring, and analyzing unauthorized file modifications within a web server environment.
 
 ---
+# Tools Used
+
+- **OSSEC (HIDS - Host Intrusion Detection System)**  
+  Security monitoring tool to detect file changes, generate alerts, and analyze system activity.
+  
+--- 
+
 # Tasks – Web Shell Detection using OSSEC FIM
 - **Attack simulation:** Inject a malicious script (webshell) into a web server directory.  
 - **Analysis:** Inspect the alert log file to verify file detection by OSSEC.  
